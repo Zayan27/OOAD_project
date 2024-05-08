@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OOADloginform" Class="ProgramDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-4164KHJ\SQLEXPRESS;Initial Catalog=OOADloginform;Integrated Security=True;Encrypt=False;Trust Server Certificate=True" SettingsObjectName="LoginForm.Properties.Settings" SettingsPropertyName="OOADloginformConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Branch_info" Member="Branch_infos">
+    <Type Name="Branch_info">
+      <Column Name="B_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="B_name" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="Branch_info_User_Info" Member="User_Infos" ThisKey="B_id" OtherKey="B_id" Type="User_Info" />
+    </Type>
+  </Table>
+  <Table Name="dbo.User_Info" Member="User_Infos">
+    <Type Name="User_Info">
+      <Column Name="U_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="B_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Uname" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Uage" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Umail" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="Branch_info_User_Info" Member="Branch_info" ThisKey="B_id" OtherKey="B_id" Type="Branch_info" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm", "LoginForm.csproj", "{9F11DD91-BBC2-4D58-A039-AE2BA64C5891}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Login", "..\Login\Login.vdproj", "{0FB252E3-D326-4246-9D42-3FBF84CAE666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F11DD91-BBC2-4D58-A039-AE2BA64C5891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F11DD91-BBC2-4D58-A039-AE2BA64C5891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F11DD91-BBC2-4D58-A039-AE2BA64C5891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F11DD91-BBC2-4D58-A039-AE2BA64C5891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB252E3-D326-4246-9D42-3FBF84CAE666}.Debug|Any CPU.ActiveCfg = Debug
+		{0FB252E3-D326-4246-9D42-3FBF84CAE666}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FF6C435-5718-4648-852E-342A1EF00FC3}
+	EndGlobalSection
+EndGlobal

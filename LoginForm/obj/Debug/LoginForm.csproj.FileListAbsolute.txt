@@ -1,0 +1,11 @@
+I:\OOAD assignments\LoginForm\bin\Debug\LoginForm.exe.config
+I:\OOAD assignments\LoginForm\bin\Debug\LoginForm.exe
+I:\OOAD assignments\LoginForm\bin\Debug\LoginForm.pdb
+I:\OOAD assignments\LoginForm\obj\Debug\LoginForm.csproj.AssemblyReference.cache
+I:\OOAD assignments\LoginForm\obj\Debug\LoginForm.Form1.resources
+I:\OOAD assignments\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+I:\OOAD assignments\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+I:\OOAD assignments\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+I:\OOAD assignments\LoginForm\obj\Debug\LoginForm.exe
+I:\OOAD assignments\LoginForm\obj\Debug\LoginForm.pdb
+I:\OOAD assignments\LoginForm\obj\Debug\LoginForm.Menu.resources

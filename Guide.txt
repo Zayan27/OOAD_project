@@ -1,0 +1,8 @@
+Name : Mohammad Zayan Khan      S.ID : 12584
+
+
+In this application I have connected application through windows authentication 
+I created 3 tables 1 table for admin which have admin login details 
+when you open app first enter Server name database name and also enter admin details through the first table
+SeverName and DatabaseName will get saved in registry so that you dont have to enter that again and you will move on to next page.
+on next page you can enter the detail of your user and can enter the Branch code to find out form which branch user belongs to. 
